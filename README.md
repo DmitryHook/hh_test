@@ -20,19 +20,19 @@ REST API на базе Django для управления организацио
 ### Запуск проекта
 1. Клонировать репозиторий
    ```bash
-   git clone https://github.com/DmitryHook/hhtest
-   cd hhtest
+   git clone https://github.com/DmitryHook/hh_test
+   cd hh_test
    ```
 2. Запустите приложение с помощью Docker Compose:
    ```bash
    docker-compose up --build -d
    ```
-3. API будет доступно по адресу `http://localhost:8000`.
+3. API будет доступно по адресу [`http://localhost:8000`](http://localhost:8000).
 
 ### API документация
 После запуска сервера вы можете изучить API по адресам:
-- **Swagger**: `http://localhost:8000/departments/schema/docs`
-- **ReDoc**: `http://localhost:8000/departments/schema/redoc`
+- **Swagger**: [`http://localhost:8000/departments/schema/docs`](http://localhost:8000/departments/schema/docs)
+- **ReDoc**: [`http://localhost:8000/departments/schema/redoc`](http://localhost:8000/departments/schema/redoc)
 
 ### Запуск тестов
 Чтобы запустить набор тестов, используйте команду:
